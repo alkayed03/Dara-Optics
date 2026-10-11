@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دارا للبصريات | Dara Optics</title>
+<style>
+  :root { --gold:#c39a6b; --gold-dark:#a87f50; --ink:#0b0b0b; --paper:#fdfcfa; --muted:#6b6b6b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"Segoe UI",Tahoma,Arial,sans-serif; background:var(--ink); color:var(--ink); min-height:100vh; display:flex; justify-content:center; }
+  .wrap { width:100%; max-width:460px; background:var(--paper); min-height:100vh; }
+  header { background:var(--ink); height:150px; border-bottom:2px solid var(--gold); }
+  .brand { text-align:center; margin-top:-70px; }
+  .logo { width:140px; height:140px; margin:0 auto; border-radius:50%; background:var(--paper); border:3px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:84px; color:var(--gold); font-family:"Amiri","Traditional Arabic",serif; line-height:1; }
+  .brand h1 { font-family:Georgia,"Times New Roman",serif; font-style:italic; font-size:30px; margin-top:14px; }
+  .brand p { color:var(--muted); font-size:15px; margin-top:4px; }
+  .content { padding:24px 20px 36px; }
+  .links { display:flex; flex-direction:column; gap:12px; }
+  a.btn { display:flex; align-items:center; gap:14px; padding:15px 18px; border-radius:14px; background:var(--ink); color:#fff; text-decoration:none; font-size:17px; border:1px solid var(--ink); transition:.15s; }
+  a.btn:active { transform:scale(.98); }
+  a.btn.gold { background:var(--gold); color:var(--ink); font-weight:600; border-color:var(--gold); }
+  a.btn.light { background:#fff; color:var(--ink); border-color:#e4dccf; }
+  a.btn .ic { width:34px; height:34px; border-radius:50%; background:rgba(255,255,255,.12); display:flex; align-items:center; justify-content:center; font-size:17px; flex:none; }
+  a.btn.gold .ic { background:rgba(0,0,0,.12); }
+  a.btn.light .ic { background:#f3ece1; }
+  a.btn small { display:block; font-size:13px; opacity:.7; margin-top:2px; font-weight:400; }
+  .card { margin-top:22px; border:1px solid #e9e1d4; border-radius:16px; padding:18px; background:#fff; }
+  .card h2 { font-size:17px; margin-bottom:12px; color:var(--gold-dark); }
+  .row { display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px dashed #eee3d2; font-size:16px; }
+  .row:last-child { border-bottom:0; }
+  .row span:first-child { color:var(--muted); }
+  .closed { color:#b3261e; font-weight:600; }
+  .services { margin-top:22px; }
+  .services h2 { font-size:17px; margin-bottom:10px; color:var(--gold-dark); }
+  .services li { list-style:none; padding:8px 0; font-size:16px; }
+  .services li::before { content:"◆"; color:var(--gold); margin-left:10px; font-size:11px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header></header>
+  <div class="brand">
+    <div class="logo">دار</div>
+    <h1>Dara Optics</h1>
+    <p>دارا للبصريات – جرش</p>
+  </div>
+
+  <div class="content">
+    <div class="links">
+      <a class="btn gold" href="tel:+962776484481">
+        <span class="ic">📞</span>
+        <span>اتصل بنا<small dir="ltr" style="text-align:right">+962 7 7648 4481</small></span>
+      </a>
+      <a class="btn" href="https://maps.app.goo.gl/VvDVw9YiGmUFsWH97?g_st=ic" target="_blank" rel="noopener">
+        <span class="ic">📍</span>
+        <span>الموقع على الخريطة<small>مجمع البركة التجاري، جرش</small></span>
+      </a>
+      <a class="btn light" href="https://www.instagram.com/daraoptics.jo?srtk=cWpycjBpcWhuN2Vn&utm_source=qr" target="_blank" rel="noopener">
+        <span class="ic">📷</span>
+        <span>إنستغرام<small dir="ltr" style="text-align:right">@daraoptics.jo</small></span>
+      </a>
+      <a class="btn light" href="https://www.facebook.com/share/1DwmK6HdC5/?mibextid=wwXIfr" target="_blank" rel="noopener">
+        <span class="ic">f</span>
+        <span>فيسبوك<small>صفحتنا الرسمية</small></span>
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>أوقات الدوام</h2>
+      <div class="row"><span>السبت – الخميس</span><span>9:00 ص – 11:00 م</span></div>
+      <div class="row"><span>الجمعة</span><span class="closed">مغلق</span></div>
+    </div>
+
+    <div class="services">
+      <h2>خدماتنا</h2>
+      <ul>
+        <li>فحص نظر شامل</li>
+        <li>فحص القرنية المخروطية بأحدث الأجهزة</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
